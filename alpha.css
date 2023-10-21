@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    /* vertical part goes to horizontal  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px 2%;
+    
+}
+#left h1{
+    /* 1rem=16px */
+    font-size: 1rem;
+    color: white;
+    
+}
+/* reduce font thickness use font weight */
+#left h1 span{
+    /* 100 means less thikness 1000 means more thickness */
+    font-weight: 100;  
+}
+#right ul{
+    display: flex;  /*get content in single line */
+     list-style-type: none; /*remove circle */
+    gap:2rem;
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
